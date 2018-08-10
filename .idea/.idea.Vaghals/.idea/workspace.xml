@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6c8c2130-e614-4621-a101-1d93d1ae8361" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Vaghals.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/Controllers/DoIDareController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/Controllers/HomeController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/Models/ErrorViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/Startup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/Vaghals.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/Views/DoIDare/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/Views/Home/About.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/Views/Home/Contact.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/Views/Home/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/Views/Home/Privacy.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/Views/Shared/Error.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/Views/Shared/_CookieConsentPartial.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/Views/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/Views/_ViewImports.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/Views/_ViewStart.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/css/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/css/site.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/images/banner1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/images/banner2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/images/banner3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/js/site.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/js/site.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/lib/bootstrap/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/lib/bootstrap/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/lib/bootstrap/dist/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/lib/jquery-validation-unobtrusive/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/lib/jquery-validation/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/lib/jquery-validation/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/lib/jquery-validation/dist/additional-methods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/lib/jquery/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/lib/jquery/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/lib/jquery/dist/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/lib/jquery/dist/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vaghals/wwwroot/lib/jquery/dist/jquery.min.map" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="HomeController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vaghals/Controllers/HomeController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <marker date="1532645257495" expanded="false" signature="6:176" ph="..." />
+                <marker date="1532645257495" expanded="true" signature="207:1005" ph="{...}" />
+                <marker date="1532645257495" expanded="true" signature="254:1003" ph="{...}" />
+                <marker date="1532645257495" expanded="true" signature="297:344" ph="{...}" />
+                <marker date="1532645257495" expanded="true" signature="382:502" ph="{...}" />
+                <marker date="1532645257495" expanded="true" signature="542:646" ph="{...}" />
+                <marker date="1532645257495" expanded="true" signature="686:733" ph="{...}" />
+                <marker date="1532645257495" expanded="true" signature="864:997" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DoIDareController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vaghals/Controllers/DoIDareController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+              <folding>
+                <marker date="1532645088122" expanded="true" signature="62:225" ph="{...}" />
+                <marker date="1532645088122" expanded="true" signature="112:223" ph="{...}" />
+                <marker date="1532645088122" expanded="true" signature="170:217" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Index.cshtml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Vaghals/Views/DoIDare/Index.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1532645460157" expanded="true" signature="17:117" ph="&lt;html.../&gt;" />
+                <marker date="1532645460157" expanded="true" signature="24:68" ph="&lt;head.../&gt;" />
+                <marker date="1532645460157" expanded="true" signature="69:109" ph="&lt;body.../&gt;" />
+                <marker date="1532645460157" expanded="true" signature="76:101" ph="&lt;div.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_ViewStart.cshtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vaghals/Views/_ViewStart.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1532515545037" expanded="true" signature="0:28" ph="@..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ErrorViewModel.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vaghals/Models/ErrorViewModel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <folding>
+                <marker date="1532515545041" expanded="true" signature="39:205" ph="{...}" />
+                <marker date="1532515545041" expanded="true" signature="73:203" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="About.cshtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vaghals/Views/Home/About.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1532515545001" expanded="true" signature="0:37" ph="@..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Contact.cshtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vaghals/Views/Home/Contact.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1532515545013" expanded="true" signature="0:39" ph="@..." />
+                <marker date="1532515545013" expanded="true" signature="99:231" ph="&lt;address.../&gt;" />
+                <marker date="1532515545013" expanded="true" signature="233:447" ph="&lt;address.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Index.cshtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vaghals/Views/Home/Index.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1532515545009" expanded="true" signature="0:41" ph="@..." />
+                <marker date="1532515545009" expanded="true" signature="43:2451" ph="&lt;div.../&gt;" />
+                <marker date="1532515545009" expanded="true" signature="134:377" ph="&lt;ol.../&gt;" />
+                <marker date="1532515545009" expanded="true" signature="382:1994" ph="&lt;div.../&gt;" />
+                <marker date="1532515545009" expanded="true" signature="434:924" ph="&lt;div.../&gt;" />
+                <marker date="1532515545009" expanded="true" signature="556:909" ph="&lt;div.../&gt;" />
+                <marker date="1532515545009" expanded="true" signature="617:890" ph="&lt;p.../&gt;" />
+                <marker date="1532515545009" expanded="true" signature="716:869" ph="&lt;a.../&gt;" />
+                <marker date="1532515545009" expanded="true" signature="933:1446" ph="&lt;div.../&gt;" />
+                <marker date="1532515545009" expanded="true" signature="1054:1431" ph="&lt;div.../&gt;" />
+                <marker date="1532515545009" expanded="true" signature="1115:1412" ph="&lt;p.../&gt;" />
+                <marker date="1532515545009" expanded="true" signature="1238:1391" ph="&lt;a.../&gt;" />
+                <marker date="1532515545009" expanded="true" signature="1455:1983" ph="&lt;div.../&gt;" />
+                <marker date="1532515545009" expanded="true" signature="1578:1968" ph="&lt;div.../&gt;" />
+                <marker date="1532515545009" expanded="true" signature="1639:1949" ph="&lt;p.../&gt;" />
+                <marker date="1532515545009" expanded="true" signature="1775:1928" ph="&lt;a.../&gt;" />
+                <marker date="1532515545009" expanded="true" signature="1999:2220" ph="&lt;a.../&gt;" />
+                <marker date="1532515545009" expanded="true" signature="2225:2444" ph="&lt;a.../&gt;" />
+                <marker date="1532515545009" expanded="true" signature="2453:4740" ph="&lt;div.../&gt;" />
+                <marker date="1532515545009" expanded="true" signature="2475:2732" ph="&lt;div.../&gt;" />
+                <marker date="1532515545009" expanded="true" signature="2540:2721" ph="&lt;ul.../&gt;" />
+                <marker date="1532515545009" expanded="true" signature="2737:3410" ph="&lt;div.../&gt;" />
+                <marker date="1532515545009" expanded="true" signature="2792:3399" ph="&lt;ul.../&gt;" />
+                <marker date="1532515545009" expanded="true" signature="3415:4298" ph="&lt;div.../&gt;" />
+                <marker date="1532515545009" expanded="true" signature="3472:4287" ph="&lt;ul.../&gt;" />
+                <marker date="1532515545009" expanded="true" signature="4303:4733" ph="&lt;div.../&gt;" />
+                <marker date="1532515545009" expanded="true" signature="4368:4722" ph="&lt;ul.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Privacy.cshtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vaghals/Views/Home/Privacy.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1532515545017" expanded="true" signature="0:46" ph="@..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vaghals/Startup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
+              <folding>
+                <marker date="1532515563658" expanded="false" signature="6:363" ph="..." />
+                <marker date="1532515563658" expanded="true" signature="382:1985" ph="{...}" />
+                <marker date="1532515563658" expanded="true" signature="409:1983" ph="{...}" />
+                <marker date="1532515563658" expanded="true" signature="468:531" ph="{...}" />
+                <marker date="1532515563658" expanded="true" signature="754:1207" ph="{...}" />
+                <marker date="1532515563658" expanded="true" signature="827:1104" ph="{...}" />
+                <marker date="1532515563658" expanded="true" signature="1395:1977" ph="{...}" />
+                <marker date="1532515563658" expanded="true" signature="1442:1519" ph="{...}" />
+                <marker date="1532515563658" expanded="true" signature="1536:1651" ph="{...}" />
+                <marker date="1532515563658" expanded="true" signature="1794:1965" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Model</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Vaghals/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vaghals/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vaghals/Controllers/DoIDareController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vaghals/Views/DoIDare/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vaghals/Models/ErrorViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vaghals/Views/Home/About.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vaghals/Views/Home/Privacy.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vaghals/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vaghals/Views/Home/Contact.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vaghals/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vaghals/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vaghals/Program.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Vaghals/Controllers/HomeController.cs" />
+        <option value="$PROJECT_DIR$/Vaghals/Controllers/DoIDare.cs" />
+        <option value="$PROJECT_DIR$/Vaghals/Controllers/DoIDareController.cs" />
+        <option value="$PROJECT_DIR$/Vaghals/Views/DoIDare/Index.cshtml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="1078" />
+    <option name="width" value="1920" />
+    <option name="height" value="1082" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Vaghals (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Vaghals (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Vaghals" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Vaghals (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Vaghals" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Vaghals (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Vaghals" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Vaghals (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Vaghals" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Vaghals (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Vaghals" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="DoIDare" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Vaghals (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Vaghals" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Home" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Vaghals (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Vaghals" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Shared" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../TennisPennis/TennisPennis.sln" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Vaghals/bin/Debug/netcoreapp2.1/Vaghals.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Vaghals" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="https://localhost:5001;http://localhost:5000" />
+      </envs>
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Vaghals/Vaghals.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.1" />
+      <browser start="true" url="https://localhost:5001" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c8c2130-e614-4621-a101-1d93d1ae8361" name="Default" comment="" />
+      <created>1532515549122</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532515549122</updated>
+      <workItem from="1532515554631" duration="4127000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4127000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="1078" width="1920" height="1082" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="REST Client" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3203372" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="NuGet" weight="0.329718" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24066168" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" weight="0.329718" />
+      <window_info anchor="right" id="Database" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Vaghals/Controllers/DoIDare.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vaghals/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vaghals/appsettings.Development.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vaghals/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1532515563658" expanded="false" signature="6:255" ph="..." />
+            <marker date="1532515563658" expanded="true" signature="274:601" ph="{...}" />
+            <marker date="1532515563658" expanded="true" signature="301:599" ph="{...}" />
+            <marker date="1532515563658" expanded="true" signature="354:428" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vaghals/Views/_ViewImports.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <marker date="1532515545041" expanded="true" signature="7:36" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vaghals/Views/_ViewStart.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1532515545037" expanded="true" signature="0:28" ph="@..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vaghals/Controllers/DoIDareController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <marker date="1532645088122" expanded="true" signature="62:225" ph="{...}" />
+            <marker date="1532645088122" expanded="true" signature="112:223" ph="{...}" />
+            <marker date="1532645088122" expanded="true" signature="170:217" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vaghals/Controllers/HomeController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <marker date="1532645257495" expanded="false" signature="6:176" ph="..." />
+            <marker date="1532645257495" expanded="true" signature="207:1005" ph="{...}" />
+            <marker date="1532645257495" expanded="true" signature="254:1003" ph="{...}" />
+            <marker date="1532645257495" expanded="true" signature="297:344" ph="{...}" />
+            <marker date="1532645257495" expanded="true" signature="382:502" ph="{...}" />
+            <marker date="1532645257495" expanded="true" signature="542:646" ph="{...}" />
+            <marker date="1532645257495" expanded="true" signature="686:733" ph="{...}" />
+            <marker date="1532645257495" expanded="true" signature="864:997" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vaghals/Views/Home/About.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1532515545001" expanded="true" signature="0:37" ph="@..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vaghals/Views/Home/Contact.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1532515545013" expanded="true" signature="0:39" ph="@..." />
+            <marker date="1532515545013" expanded="true" signature="99:231" ph="&lt;address.../&gt;" />
+            <marker date="1532515545013" expanded="true" signature="233:447" ph="&lt;address.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vaghals/Views/Home/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1532515545009" expanded="true" signature="0:41" ph="@..." />
+            <marker date="1532515545009" expanded="true" signature="43:2451" ph="&lt;div.../&gt;" />
+            <marker date="1532515545009" expanded="true" signature="134:377" ph="&lt;ol.../&gt;" />
+            <marker date="1532515545009" expanded="true" signature="382:1994" ph="&lt;div.../&gt;" />
+            <marker date="1532515545009" expanded="true" signature="434:924" ph="&lt;div.../&gt;" />
+            <marker date="1532515545009" expanded="true" signature="556:909" ph="&lt;div.../&gt;" />
+            <marker date="1532515545009" expanded="true" signature="617:890" ph="&lt;p.../&gt;" />
+            <marker date="1532515545009" expanded="true" signature="716:869" ph="&lt;a.../&gt;" />
+            <marker date="1532515545009" expanded="true" signature="933:1446" ph="&lt;div.../&gt;" />
+            <marker date="1532515545009" expanded="true" signature="1054:1431" ph="&lt;div.../&gt;" />
+            <marker date="1532515545009" expanded="true" signature="1115:1412" ph="&lt;p.../&gt;" />
+            <marker date="1532515545009" expanded="true" signature="1238:1391" ph="&lt;a.../&gt;" />
+            <marker date="1532515545009" expanded="true" signature="1455:1983" ph="&lt;div.../&gt;" />
+            <marker date="1532515545009" expanded="true" signature="1578:1968" ph="&lt;div.../&gt;" />
+            <marker date="1532515545009" expanded="true" signature="1639:1949" ph="&lt;p.../&gt;" />
+            <marker date="1532515545009" expanded="true" signature="1775:1928" ph="&lt;a.../&gt;" />
+            <marker date="1532515545009" expanded="true" signature="1999:2220" ph="&lt;a.../&gt;" />
+            <marker date="1532515545009" expanded="true" signature="2225:2444" ph="&lt;a.../&gt;" />
+            <marker date="1532515545009" expanded="true" signature="2453:4740" ph="&lt;div.../&gt;" />
+            <marker date="1532515545009" expanded="true" signature="2475:2732" ph="&lt;div.../&gt;" />
+            <marker date="1532515545009" expanded="true" signature="2540:2721" ph="&lt;ul.../&gt;" />
+            <marker date="1532515545009" expanded="true" signature="2737:3410" ph="&lt;div.../&gt;" />
+            <marker date="1532515545009" expanded="true" signature="2792:3399" ph="&lt;ul.../&gt;" />
+            <marker date="1532515545009" expanded="true" signature="3415:4298" ph="&lt;div.../&gt;" />
+            <marker date="1532515545009" expanded="true" signature="3472:4287" ph="&lt;ul.../&gt;" />
+            <marker date="1532515545009" expanded="true" signature="4303:4733" ph="&lt;div.../&gt;" />
+            <marker date="1532515545009" expanded="true" signature="4368:4722" ph="&lt;ul.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vaghals/Views/Home/Privacy.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1532515545017" expanded="true" signature="0:46" ph="@..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vaghals/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
+          <folding>
+            <marker date="1532515563658" expanded="false" signature="6:363" ph="..." />
+            <marker date="1532515563658" expanded="true" signature="382:1985" ph="{...}" />
+            <marker date="1532515563658" expanded="true" signature="409:1983" ph="{...}" />
+            <marker date="1532515563658" expanded="true" signature="468:531" ph="{...}" />
+            <marker date="1532515563658" expanded="true" signature="754:1207" ph="{...}" />
+            <marker date="1532515563658" expanded="true" signature="827:1104" ph="{...}" />
+            <marker date="1532515563658" expanded="true" signature="1395:1977" ph="{...}" />
+            <marker date="1532515563658" expanded="true" signature="1442:1519" ph="{...}" />
+            <marker date="1532515563658" expanded="true" signature="1536:1651" ph="{...}" />
+            <marker date="1532515563658" expanded="true" signature="1794:1965" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vaghals/Models/ErrorViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1532515545041" expanded="true" signature="39:205" ph="{...}" />
+            <marker date="1532515545041" expanded="true" signature="73:203" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vaghals/Views/DoIDare/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1532645460157" expanded="true" signature="17:117" ph="&lt;html.../&gt;" />
+            <marker date="1532645460157" expanded="true" signature="24:68" ph="&lt;head.../&gt;" />
+            <marker date="1532645460157" expanded="true" signature="69:109" ph="&lt;body.../&gt;" />
+            <marker date="1532645460157" expanded="true" signature="76:101" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
